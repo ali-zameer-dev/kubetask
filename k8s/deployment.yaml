@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: kubetask
-        image: kubetask:latest
-        imagePullPolicy: Never
+        image: alizameer01/kubetask:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
         env:
